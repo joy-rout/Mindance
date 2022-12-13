@@ -1,0 +1,40 @@
+.newsletter{
+    height: 790px;
+    background-color:#C4CEFF;
+    
+}
+.newsletter-title {
+   
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+
+  color: #ffffff;
+  text-align: center;
+  
+}
+
+.newsletter-text {
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+ 
+
+  text-align: center;
+  letter-spacing: 0.2em;
+
+  color: #ffffff;
+  text-align: center;
+}
+
+.image10 {
+  height: 1000;
+  width: 100%;
+  padding-top: 50px;
+}

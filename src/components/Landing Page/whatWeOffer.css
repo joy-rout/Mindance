@@ -1,0 +1,47 @@
+
+.whatweoffer {
+  background-color: #5e9d70;
+  height: 500px;
+  font-family: cursive;
+}
+
+.title {
+  text-align: center;
+  color: #e5ff9b;
+  padding-top: 50px;
+  
+  padding-bottom: 80px;
+  font-family: 'Apercu';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 70px;
+}
+
+#leftbox {
+  float: left;
+  text-align: center;
+  width: 33.3%;
+  height: 280px;
+}
+
+#middlebox {
+  float: left;
+  text-align: center;
+  width: 33.3%;
+  height: 280px;
+}
+
+#rightbox {
+  float: right;
+  text-align: center;
+  width: 33.3%;
+  height: 280px;
+}
+
+.offer{
+    padding-top: 40px;
+    color: #D4FDC0;
+    font-size: large;
+    
+}

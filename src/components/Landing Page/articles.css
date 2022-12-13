@@ -1,0 +1,137 @@
+.container6 {
+    width: 100%;
+    height: 900px;
+    background-color: #C4CEFF;
+    margin: auto;
+    text-align: left;
+    font-family: cursive;
+  }
+
+
+.article{
+    font-size: 0.6in;
+    color: #5F30DF;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    font-weight: 900 ;
+    text-align: center;
+}
+
+.leftbox2 {
+    float: left;
+    text-align: center;
+    padding-left: 15px;
+    height: 300px;
+    padding-bottom: 50px;
+    
+    
+  }
+
+  .rightbox2 {
+    float: right;
+    text-align: center;
+   padding-right: 15px;
+    height: 300px;
+    padding-bottom: 50px;
+    
+  }
+
+.leftbox3 {
+    float: left;
+    text-align: center;
+    width: 30%;
+    height: 300px;
+    padding-bottom: 20px;
+    
+  }
+  
+.middlebox3 {
+    float: left;
+    text-align: center;
+    width: 30%;
+    height: 300px;
+    padding-bottom: 20px;
+    
+  }
+  
+.rightbox3 {
+    float: right;
+    text-align: left;
+    width: 40%;
+    height: 300px;
+    padding-bottom: 20px;
+    
+  }
+
+  .image6{
+    height: 300px;
+    width: 800px;
+    border-radius: 9%;
+    box-shadow: 0 4px 8px 0 rgb(56, 110, 129), 0 6px 20px 0 rgb(56, 110, 129);
+  
+  }
+  
+  .image7{
+    height: 300px;
+    width: 400px;
+    border-radius: 9%;
+    box-shadow: 0 4px 8px 0 rgb(56, 110, 129), 0 6px 20px 0 rgb(56, 110, 129);
+ 
+  }
+
+  .image8{
+    height: 300px;
+    width: 300px;
+    border-radius: 9%;
+    box-shadow: 0 4px 8px 0 rgb(56, 110, 129), 0 6px 20px 0 rgb(56, 110, 129);
+
+  }
+  
+  .image9{
+    height: 300px;
+    width: 450px;
+    border-radius: 9%;
+    box-shadow: 0 4px 8px 0 rgb(56, 110, 129), 0 6px 20px 0 rgb(56, 110, 129);
+   
+  }
+
+  .text-block {
+    position: absolute;
+    bottom: 70px;
+    left: 320px;
+    font-size: large;
+    color: rgb(255, 244, 244);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .text-block2 {
+    position: absolute;
+    bottom: 70px;
+    left: 300px;
+    font-size: large;
+    color: rgb(44, 38, 38);
+    background-color: rgb(203, 124, 124);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .text-block3 {
+    position: absolute;
+    bottom: 50px;
+    left: 170px;
+    font-size: large;
+    color: rgb(44, 38, 38);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .text-block4 {
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    font-size: large;
+    color: rgb(44, 38, 38);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
