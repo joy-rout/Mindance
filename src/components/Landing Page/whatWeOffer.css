@@ -45,3 +45,26 @@ line-height: 70px;
     font-size: large;
     
 }
+.weHelpWith{
+  background: #9747FF;
+}
+
+.weHelpWith-para{
+  font-family: 'Apercu';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 120px;
+letter-spacing: -0.04em;
+text-align: left;
+color: #EEDFFA;
+padding-left: 20px;
+}
+
+.weHelpWith-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 20px;
+}

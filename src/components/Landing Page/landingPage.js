@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 /* eslint-disable jsx-a11y/alt-text */
 import { useRef } from "react";
-import { FaBars, FaTimes ,FaVolumeUp } from "react-icons/fa";
+import { FaBars, FaTimes  } from "react-icons/fa";
 import "./Navbar.css";
 import Logo from "../Images/butterfly.png";
 import React from "react";
@@ -28,7 +28,9 @@ import Image7 from "../Images/1694_U1RVRElPIEtBVCAzOTItMzE.jpg";
 import Image8 from "../Images/vecteezy_disabled-paralympic-athlete-running-in-the-field_.jpg";
 import Image9 from "../Images/psychologist-illustration-vector.jpg";
 import Image10 from "../Images/Ellipse 20.svg";
+import Image11 from "../Images/Group_26.svg";
 import VolumeUp from "./Sounds"
+import './NewsLetter.css'
 
 const buttonStyle = {
   fontFamily: "cursive",
@@ -165,6 +167,17 @@ const LandingPage = () => {
           <img className="icon" src={Icon3} alt="icon" />
           <p className="offer"> Mood Tracker </p>
         </div>
+      </div>
+
+
+      <div className="weHelpWith">
+        <p className="weHelpWith-para">
+          WE HELP WITH
+          </p>
+
+        <img className="weHelpWith-image" src={Image11} alt="we help with" />
+
+
       </div>
 
       {/* //////////Third Page////////// //////////Third Page////////// //////////Third Page////////////////////Third Page////////// //////////Third Page////////// //////////Third Page//////////
