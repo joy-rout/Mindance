@@ -3,9 +3,10 @@ import "./whatWeOffer.css";
 import Icon1 from "../Icons/Connect to a listener.svg";
 import Icon2 from "../Icons/Locate therapists around you.svg";
 import Icon3 from "../Icons/Mood tracker.svg";
-
+import Image11 from "../Images/Group_26.svg";
 function whatWeOffer() {
   return (
+    <div>
     <div className="whatweoffer">
       <p className="title">What We Offer</p>
       <div id="leftbox">
@@ -21,6 +22,16 @@ function whatWeOffer() {
         <p className="offer"> Mood Tracker </p>
       </div>
     </div>
+    <div className="weHelpWith">
+    <p className="weHelpWith-para">
+      We Help With
+      </p>
+
+    <img className="weHelpWith-image" src={Image11} alt="we help with" />
+
+
+  </div>
+  </div>
   );
 }
 

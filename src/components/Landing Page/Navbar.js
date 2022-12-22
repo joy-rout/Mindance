@@ -3,6 +3,7 @@ import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
 import Logo from "../Images/butterfly.png";
+import VolumeUp from "./Sounds"
 // import HomePage from '../Home Page/homePage'
 // import {
 // 	BrowserRouter as Router,
@@ -28,6 +29,7 @@ function Navbar() {
         <a href="/#homePage">FAQ</a>
         <a href="/#">About us</a>
         <a href="/#">Emergency Helpline</a>
+        <VolumeUp/>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
         </button>

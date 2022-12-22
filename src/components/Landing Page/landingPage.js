@@ -62,7 +62,7 @@ const LandingPage = () => {
         <nav ref={navRef}>
           <a href="../Home Page/homePage.js">Contact</a>
           <a href="/#homePage">FAQ</a>
-          <a href="/#">About us</a>
+          <a href="/#contact">About us</a>
           <a href="/#">Emergency Helpline</a>
             <VolumeUp/>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
@@ -172,7 +172,7 @@ const LandingPage = () => {
 
       <div className="weHelpWith">
         <p className="weHelpWith-para">
-          WE HELP WITH
+          We Help With
           </p>
 
         <img className="weHelpWith-image" src={Image11} alt="we help with" />
@@ -184,7 +184,7 @@ const LandingPage = () => {
     //////////Third Page////////// //////////Third Page//////////
     //////////Third Page////////// */}
 
-      <div>
+      <div >
         <div className="container5">
           <div class="one">
             <div className="chatbotText">Chat With Chatbot For Assistance</div>
