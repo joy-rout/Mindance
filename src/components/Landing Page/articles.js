@@ -1,112 +1,170 @@
-/* eslint-disable no-lone-blocks */
 import React from "react";
 import "./articles.css";
-import Image5 from "../Images/vector-free-bedtime-illustration 1.svg";
-import Image6 from "../Images/vecteezy_woman-meditating-in-nature-and-leaves-concept-illustration_4261144.jpg";
-import Image7 from "../Images/1694_U1RVRElPIEtBVCAzOTItMzE.jpg";
-import Image8 from "../Images/vecteezy_disabled-paralympic-athlete-running-in-the-field_.jpg";
-import Image9 from "../Images/psychologist-illustration-vector.jpg";
 
-function articles() {
+import Image5 from "../Images/sleeping.gif";
+import Image6 from "../Images/meditation.gif";
+import Image7 from "../Images/meditation2.gif";
+import Image8 from "../Images/fitness.gif";
+import Image9 from "../Images/tthinking2.gif";
+
+const articles = () => {
+  // const card = document.querySelector(".card__inner");
+
+  // card.addEventListener("click", function () {
+  //   card.classList.toggle("is-flipped");
+  // });
+
   return (
-    <div className="container6">
-        <p className="article">Latest Articles</p>
-        <div className="container7">
-          <div className="leftbox2">
-            <a href="https://www.health.harvard.edu/mind-and-mood/relaxation-techniques-breath-control-helps-quell-errant-stress-response">
-              <img className="image6" src={Image5} alt="article" />
-            </a>
-            {/* <div class="text-block">
-    <h4>Breathing Exercise For Better Sleep</h4>
+    <div className="articles">
+    <p className="article_p">Latest Articles</p>
     
-  </div> */}
+    <div className="table">
+      
+      <div class="box">
+        <div class="box-row">
+        
+      <div class="box-cell card1">
+        <div class="card__inner">
+          <div class="card__face card__face--front">
+            <img className="article_image" src={Image5} alt="article" />
           </div>
-          <div className="rightbox2">
-            <a href="https://www.mindful.org/how-to-meditate/">
-              <img className="image7" src={Image6} alt="article" />
-            </a>
-            {/* <div class="text-block2">
-    <h4>The Art Of Meditation</h4>
-    
-  </div> */}
-          </div>
-        </div>
+          <div class="card__face card__face--back">
+            <div class="card__content">
+              <div class="card__header">
+                <img className="pp" src={Image5} alt="article" />
 
-        <div className="container8">
-          <div className="leftbox3">
-            <a href="https://www.innerpeacefellowship.org/how-to-meditate/?gclid=CjwKCAiAhKycBhAQEiwAgf19euB7pakN2EYBV23ibv5cuKIkST2F5gETsCP7uX-xGQ-7Q83KYO1MVRoC2OcQAvD_BwE">
-              <img className="image8" src={Image7} alt="article" />
-            </a>
-            {/* <div class="text-block3">
-    <h4>Meditation For Beginners</h4>
-  </div> */}
-          </div>
-          <div className="middlebox3">
-            <a href="https://www.verywellfit.com/how-to-start-running-the-absolute-beginners-guide-2911191">
-              <img className="image8" src={Image8} alt="article" />
-            </a>
-            {/* <div class="text-block3">
-    <h4>Running : A therapy</h4>
-    
-  </div> */}
-          </div>
-          <div className="rightbox3">
-            <a href="https://www.psychologytoday.com/us/basics/therapy">
-              <img className="image9" src={Image9} alt="article" />
-            </a>
-            {/* <div class="text-block4">
-    <h4>Does Therapy Really Help ?</h4>
-    
-  </div> */}
+                <h2>Breathing Exercise For Better Sleep</h2>
+              </div>
+              <div class="card__body">
+                {/* <h3>JavaScript Wizard</h3> */}
+                <p>
+                  Lorem ipsum <strong>dolor</strong> sit amet, consectetur{" "}
+                  <strong>adipiscing</strong> elit. Sed id erat a magna lobortis
+                  dictum. Nunc est arcu, <strong>lacinia</strong> quis sapien
+                  placerat, <strong>laoreet</strong> tincidunt nulla.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+
+      <div class="box-cell card2">
+        <div class="card__inner">
+          <div class="card__face card__face--front">
+            <img className="article_image" src={Image6} alt="article" />
+          </div>
+          <div class="card__face card__face--back">
+            <div class="card__content">
+              <div class="card__header">
+                <img className="pp" src={Image6} alt="article" />
+
+                <h2>The Art Of Meditation</h2>
+              </div>
+              <div class="card__body">
+                
+                <p>
+                  Lorem ipsum <strong>dolor</strong> sit amet, consectetur{" "}
+                  <strong>adipiscing</strong> elit. Sed id erat a magna lobortis
+                  dictum. Nunc est arcu, <strong>lacinia</strong> quis sapien
+                  placerat, <strong>laoreet</strong> tincidunt nulla.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-cell card3">
+        <div class="card__inner">
+          <div class="card__face card__face--front">
+            <img className="article_image" src={Image7} alt="article" />
+          </div>
+          <div class="card__face card__face--back">
+            <div class="card__content">
+              <div class="card__header">
+                <img className="pp" src={Image7} alt="article" />
+
+                <h2>Meditation For Beginners</h2>
+              </div>
+              <div class="card__body">
+                
+                <p>
+                  Lorem ipsum <strong>dolor</strong> sit amet, consectetur{" "}
+                  <strong>adipiscing</strong> elit. Sed id erat a magna lobortis
+                  dictum. Nunc est arcu, <strong>lacinia</strong> quis sapien
+                  placerat, <strong>laoreet</strong> tincidunt nulla.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    </div>
+    <div class="box">
+        <div class="box-row">
+        
+      <div class="box-cell card1">
+        <div class="card__inner">
+          <div class="card__face card__face--front">
+            <img className="article_image" src={Image8} alt="article" />
+          </div>
+          <div class="card__face card__face--back">
+            <div class="card__content">
+              <div class="card__header">
+                <img className="pp" src={Image8} alt="article" />
+
+                <h2>Running : A therapy</h2>
+              </div>
+              <div class="card__body">
+                
+                <p>
+                  Lorem ipsum <strong>dolor</strong> sit amet, consectetur{" "}
+                  <strong>adipiscing</strong> elit. Sed id erat a magna lobortis
+                  dictum. Nunc est arcu, <strong>lacinia</strong> quis sapien
+                  placerat, <strong>laoreet</strong> tincidunt nulla.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-cell card2">
+        <div class="card__inner">
+          <div class="card__face card__face--front">
+            <img className="article_image" src={Image9} alt="article" />
+          </div>
+          <div class="card__face card__face--back">
+            <div class="card__content">
+              <div class="card__header">
+                <img className="pp" src={Image9} alt="article" />
+
+                <h2>Does Therapy Really Help ?</h2>
+              </div>
+              <div class="card__body">
+                
+                <p>
+                  Lorem ipsum <strong>dolor</strong> sit amet, consectetur{" "}
+                  <strong>adipiscing</strong> elit. Sed id erat a magna lobortis
+                  dictum. Nunc est arcu, <strong>lacinia</strong> quis sapien
+                  placerat, <strong>laoreet</strong> tincidunt nulla.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+      
+    </div>
+      </div>
       </div>
   );
-}
+};
 
 export default articles;
-
-
-{/* <div className="container6">
-      <p className="article">Latest Articles</p>
-      <div className="container7">
-        
-        <div className="leftbox2">
-          <img className="image6" src={Image5} alt="article" />
-          <div class="text-block">
-    <h4>Breathing Exercise For Better Sleep</h4>
-    
-  </div>
-        </div>
-        <div className="rightbox2">
-          <img className="image7" src={Image6} alt="article" />
-          <div class="text-block2">
-    <h4>The Art Of Meditation</h4>
-    
-  </div>
-        </div>
-      </div>
-
-      <div className="container8">
-        <div className="leftbox3">
-          <img className="image8" src={Image7} alt="article" />
-          <div class="text-block3">
-    <h4>Meditation For Beginners</h4>
-  </div>
-        </div>
-        <div className="middlebox3">
-          <img className="image8" src={Image8} alt="article" />
-          <div class="text-block3">
-    <h4>Running : A therapy</h4>
-    
-  </div>
-        </div>
-        <div className="rightbox3">
-          <img className="image9" src={Image9} alt="article" />
-          <div class="text-block4">
-    <h4>Does Therapy Really Help ?</h4>
-    
-  </div>
-        </div>
-      </div>
-    </div> */}
