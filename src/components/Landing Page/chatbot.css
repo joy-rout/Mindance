@@ -7,14 +7,17 @@
 }
 
 .one {
-  width: 50%;
+  width: 20%;
   text-align: center;
   float: left;
+  padding-left: 80px;
+  padding-top: 70px;
  
 }
 
 .two {
-  margin-left: 50%;
+  float: right;
+  width: 50%;
 }
 
 .ImageChatbot {

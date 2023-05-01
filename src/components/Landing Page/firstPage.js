@@ -8,6 +8,7 @@ import Image2 from "../Images/Mental Health 1-01 1.png";
 import Image3 from "../Images/image3.png";
 
 
+
 const buttonStyle =  {
   fontFamily: 'cursive',
   boxShadow: '0 4px 8px 0 rgb(56, 110, 129), 0 6px 20px 0 rgb(56, 110, 129)',
@@ -22,8 +23,11 @@ const buttonStyle1 =  {
   color: '#E5FF9B'
 }
 
+
 const FirstPage = () => {
+ 
   return (
+    
     <div className="maincontainer">
         <div className="flex-parent-element ">
           {/* first child  */}
@@ -35,7 +39,7 @@ const FirstPage = () => {
             </div>
 
             <Stack className="button1" spacing={6} direction="row">
-              <Button style={buttonStyle} variant="outlined">
+            <Button style={buttonStyle} variant="outlined">
                 <span>Login</span>
               </Button>
               <Button style={buttonStyle1} variant="contained">

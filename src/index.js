@@ -12,6 +12,7 @@ import Newsletter from "./components/Landing Page/Newsletter";
 // import LandingPage from "./components/Landing Page/landingPage";
 
 
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
@@ -21,6 +22,8 @@ root.render(
       <ChatBot/>
       <Articles/>
       <Newsletter/>
+      
+
  
       {/* <LandingPage/> */}
      

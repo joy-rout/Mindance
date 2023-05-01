@@ -49,6 +49,10 @@
   padding-bottom: 60px;
 }
 
+.loginimage{
+  height: 30px;
+  border-radius: 100%;
+}
 .quote1{
  
   width: 576px;
