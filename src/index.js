@@ -7,7 +7,7 @@ import WhatWeOffer from "./components/Landing Page/whatWeOffer";
 import ChatBot from "./components/Landing Page/chatbot"
 import Articles from './components/Landing Page/articles'
 import Newsletter from "./components/Landing Page/Newsletter";
-// import SoundPage from "./components/Landing Page/Sounds"
+import SoundPage from "./components/Landing Page/Sounds"
 
 // import LandingPage from "./components/Landing Page/landingPage";
 
@@ -22,7 +22,7 @@ root.render(
       <ChatBot/>
       <Articles/>
       <Newsletter/>
-      
+      <SoundPage/>
 
  
       {/* <LandingPage/> */}
